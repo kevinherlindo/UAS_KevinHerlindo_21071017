@@ -1,0 +1,18 @@
+1. Setelah database diimport dan program sudah diletakkan 
+   di dalam htdocs
+2. Membuat table baru melalui localhost/phpmyadmin
+   t_perusahaan(PerusahaanID,NamaPerusahaan,Alamat,telepon)
+3. Membuat modul baru pada folder (cara cepat copy paste folder yang sudah ada)
+   admin/modul/mod_perusahaan/perusahaan.php
+   kemudian rename sesuai dengan nama modul yang akan dibuat
+4. lakukan modifikasi pada file perusahaan.php sesuai dengan nama table
+   beserta field yang digunakan
+5. Buka file admin/hery.php tambahkan link modul (bisa dgn copy paste)
+   sesuai dengan nama modulnya
+6. Buka file admin/hery_isi.php tambahkan akses modulnya (bisa copy paste contoh 
+   di atasnya)
+7. Refresh browser localhost/simrs
+
+Untuk 
+-------------------------------------------
+

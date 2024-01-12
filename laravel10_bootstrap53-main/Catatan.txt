@@ -1,0 +1,16 @@
+1. php artisan route:list
+2. a. php artisan make:model
+   b. Guru
+   c. pilihan otomatis  (3,4,6) akan dibuat otomatis 
+
+3. php artisan make:factory SiswaFactory
+4. php artisan make:seeder SiswaSeeder
+5. php artisan db:seed --class=SiswaSeeder
+
+//buat css pagination
+6. php artisan vendor:publish --tag=laravel-pagination
+//aktifkan pada App/provider
+7.  Paginator::useBootstrapFive();
+
+
+
